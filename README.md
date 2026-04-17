@@ -167,12 +167,10 @@ In other words:
 ├── trip_planner_agent.py
 ├── requirements.txt
 ├── .gitignore
-└── data/
-    ├── voyager_state.json
-    └── poi_votes.jsonl
+└── README.md
 ```
 
-The `data/` folder is created during use and stores local state and feedback data.
+> **Note:** A `data/` folder is created automatically at runtime to store local state and feedback (`voyager_state.json`, `poi_votes.jsonl`). This folder is intentionally excluded via `.gitignore` and is not part of the repository.
 
 ## Installation
 
